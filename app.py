@@ -3,6 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 app = Dash(__name__)
+server=app.server
 
 app.layout = html.Div([
     html.H1(children='GATECH-FIL RECRUITMENT TASK', style={'textAlign':'center'}),
